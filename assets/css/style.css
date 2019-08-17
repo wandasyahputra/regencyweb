@@ -1,0 +1,85 @@
+.title {
+    color: #452f31;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px;
+}
+.sub-title {
+    color: #452f31;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+#home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-container {
+    text-align: center;
+}
+.home-description {
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 700px;
+    font-weight: 300;
+    font-size: 11px;
+    margin: 20px auto;
+    line-height: 29px;
+    letter-spacing: 1px;
+}
+.home-title {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 40vh;
+}
+
+#about > div {
+    text-align: center;
+}
+.about-description {
+    color: #452f31;
+    text-align: justify;
+}
+.about-description span {
+    font-weight: bold;
+}
+.btn-start {
+    padding: 12px;
+    color: #452f31;
+    font-size: 12px;
+    font-weight: bold;
+    background: white;
+    border-radius: 35px;
+    text-decoration: none !important;
+    margin: 10px 0;
+    display: inline-block;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.nav-logo {
+    height: 100%;
+}
+.navbar {
+    background-color: white;
+}
+.navbar-nav li{
+    transition: 0.5s; 
+    border-bottom: 3px solid #fff;
+}
+.navbar-nav li.active {
+    border-bottom: 3px solid #452f31;
+}
+.navbar-nav a{
+    color: #452f31 !important;
+    font-weight: bold;
+    background-color: white !important;
+}
