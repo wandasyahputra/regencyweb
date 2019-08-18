@@ -3,7 +3,7 @@ body {
 }
 .title {
     color: #452f31;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: bold;
     text-align: center;
     margin: 40px;
@@ -14,6 +14,15 @@ body {
     font-weight: bold;
     text-align: center;
 }
+.tables {
+    width: 100%;
+}
+#location,
+#layout,
+#price {
+    background: #f0f0f0;
+}
+
 #home {
     width: 100vw;
     height: 100vh;
@@ -47,8 +56,7 @@ body {
 #about > div {
     text-align: center;
 }
-.facilities-container,
-.about-container {
+.dualcolumn-container {
     padding: 0 60px;
 }
 .facilities-description,
@@ -60,12 +68,10 @@ body {
 .about-description span {
     font-weight: bold;
 }
-.facilities-content,
-.about-content {
+.dualcolumn-content {
     text-align: left;
 }
-.facilities-content h5,
-.about-content h5 {
+.dualcolumn-content h5 {
     margin: 0;
     line-height: 36px;
 }
@@ -80,13 +86,14 @@ body {
 .facilities-gallery-image-a {
     padding: 0px;
     overflow: hidden;
-    height: 200px;
+    height: 133px;
 }
 .facilities-gallery-image {
     transition: 0.75s;
     width: 100%;
     margin: 0px;
 }
+.specication-gallery-image-a,
 .location-gallery-image-a {
     padding: 0px;
     overflow: hidden;
@@ -94,7 +101,7 @@ body {
 }
 .location-gallery-image {
     width: 100%;
-    margin: 0px;
+    padding: 40px;
 }
 .facilities-gallery-image:hover {
     width: 120%;
@@ -104,6 +111,16 @@ body {
 .specification.sub-title {
     text-align: left;
 }
+.specification-gallery-image {
+    width: 100%;
+}
+.specification-row {
+    margin-top: 40px;
+}
+#location .title {
+    margin: 40px 40px 0;
+}
+#
 .btn-start {
     padding: 12px;
     color: #452f31;
@@ -139,6 +156,6 @@ body {
 .modal-body {
     padding: 0px;
 }
-.page {
+/* .page {
     min-height: 100vh;
-}
+} */
