@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 .title {
     color: #452f31;
     font-size: 32px;
@@ -44,12 +47,62 @@
 #about > div {
     text-align: center;
 }
+.facilities-container,
+.about-container {
+    padding: 0 60px;
+}
+.facilities-description,
 .about-description {
     color: #452f31;
     text-align: justify;
+    line-height: 30px;
 }
 .about-description span {
     font-weight: bold;
+}
+.facilities-content,
+.about-content {
+    text-align: left;
+}
+.facilities-content h5,
+.about-content h5 {
+    margin: 0;
+    line-height: 36px;
+}
+.about-image {
+    height: 33px;
+    display: block;
+    margin: 23px 0;
+}
+.facilities-gallery {
+    margin-top: 40px;
+}
+.facilities-gallery-image-a {
+    padding: 0px;
+    overflow: hidden;
+    height: 200px;
+}
+.facilities-gallery-image {
+    transition: 0.75s;
+    width: 100%;
+    margin: 0px;
+}
+.location-gallery-image-a {
+    padding: 0px;
+    overflow: hidden;
+    width: 100%
+}
+.location-gallery-image {
+    width: 100%;
+    margin: 0px;
+}
+.facilities-gallery-image:hover {
+    width: 120%;
+    margin-left: -5%;
+    margin-top: -5%;
+}
+.specification.sub-title {
+    text-align: left;
 }
 .btn-start {
     padding: 12px;
@@ -82,4 +135,10 @@
     color: #452f31 !important;
     font-weight: bold;
     background-color: white !important;
+}
+.modal-body {
+    padding: 0px;
+}
+.page {
+    min-height: 100vh;
 }
