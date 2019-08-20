@@ -23,6 +23,10 @@ body {
 #promo {
     background: #f0f0f0;
 }
+#footer {
+    background: #0d2b51;
+    color: white;
+}
 
 #home {
     width: 100vw;
@@ -57,6 +61,7 @@ body {
     padding: 3px 10px;
     letter-spacing: 2px;
     margin: 10px;
+    text-decoration: none;
 }
 .home-title {
     color: white;
@@ -173,6 +178,36 @@ body {
     text-decoration: none !important;
     margin: 10px 0;
     display: inline-block;
+}
+.footer-title1 {
+    font-size: 26px;
+    line-height: 23px;
+    letter-spacing: 6px;
+    margin-top: 40px;
+}
+.bold {
+    font-weight: 600;
+}
+.italic {
+    font-style: italic;
+}
+.italicunderline {
+    font-style: italic;
+    text-decoration: underline;
+}
+.year {
+    font-weight: bold;
+    text-align: center;
+}
+.footer-title2 {
+    line-height: 23px;
+    font-size: 26px;
+    font-weight: bolder;
+    letter-spacing: 6px;
+}
+.footer-addon {
+    letter-spacing: 1px;
+    line-height: 20px;
 }
 .navbar-brand {
     padding: 0px;
