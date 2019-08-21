@@ -78,7 +78,7 @@ body {
     text-align: center;
 }
 .dualcolumn-container {
-    padding: 0 60px;
+    padding: 0 40px;
 }
 .facilities-description,
 .about-description {
@@ -131,6 +131,8 @@ body {
 }
 .specification.sub-title {
     text-align: left;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 .specification-gallery-image {
     width: 100%;
@@ -235,4 +237,8 @@ body {
 }
 .page {
     padding-bottom: 40px;
+}
+.no-decoration {
+    text-decoration: none;
+    color: white;
 }
