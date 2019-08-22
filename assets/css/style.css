@@ -69,11 +69,6 @@ body {
     font-weight: bold;
     margin-top: 40vh;
 }
-@media (max-width: 500px) {
-    .home-title {
-        margin-top: 18vh;
-    }
-}
 #about > div {
     text-align: center;
 }
@@ -232,6 +227,16 @@ body {
     font-weight: bold;
     background-color: white !important;
 }
+li.on-mobile {
+    padding: 5px 12px;
+    display: none;
+}
+li.on-mobile > a {
+    text-align: center;
+    color: white !important;
+    background-color: #74a7c5 !important;
+    border-radius: 10px;
+}
 .modal-body {
     padding: 0px;
 }
@@ -241,4 +246,15 @@ body {
 .no-decoration {
     text-decoration: none;
     color: white;
+}
+.navbar-fixed-top .navbar-collapse {
+    max-height: 100vh;
+}
+@media (max-width: 500px) {
+    .home-title {
+        margin-top: 18vh;
+    }
+    li.on-mobile {
+        display: block;
+    }
 }

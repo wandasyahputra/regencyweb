@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"></link>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
@@ -36,6 +36,9 @@
 					<li><a href="#price">Price</a></li>
 					<li><a href="#promo">Promo</a></li>
 					<li><a href="#contact">Contact Us</a></li>
+					<li class="on-mobile"><a href="tel:+6287878550000">Call</a></li>
+					<li class="on-mobile"><a href="mailto: pradiptagung@workmail.com">Email</a></li>
+					<li class="on-mobile"><a href="https://api.whatsapp.com/send?phone=6287878550000" target="_blank">Whatsapp</a></li>
 				</ul>
 				</div><!--/.nav-collapse -->
 			</div>
@@ -200,156 +203,158 @@
 					</a>				
 				</div>
 			</div>
-			<div id="specification" class="container page">
-				<h3 class="title">SPECIFICATION</h3>
-				<div class="col-md-6 dualcolumn-container">
-					<div class="dualcolumn-content">
-						<h4 class="specification sub-title">Main Door</h4>
-						<h5>Solid Engineering Door</h5>
-						<h4 class="specification sub-title">Windows</h4>
-						<h5>Powder Coating Aluminum Frame with Glass</h5>
-						<h4 class="specification sub-title">Floor Unit</h4>
-						<h5>Master Bedroom : Marble</h5>
-						<h5>Bedroom : Marble</h5>
-						<h5>Living Room : Marble</h5>
-						<h5>Dining Room : Marble</h5>
-						<h5>Bathroom : Homogeneous Tile</h5>
-						<h5>Balcony : Ceramic</h5>
-						<h4 class="specification sub-title">Kitchen</h4>
-						<h5>Kitchen Table with Single Bowl</h5>
+			<div id="specification">
+				<div class="container page">
+					<h3 class="title">SPECIFICATION</h3>
+					<div class="col-md-6 dualcolumn-container">
+						<div class="dualcolumn-content">
+							<h4 class="specification sub-title">Main Door</h4>
+							<h5>Solid Engineering Door</h5>
+							<h4 class="specification sub-title">Windows</h4>
+							<h5>Powder Coating Aluminum Frame with Glass</h5>
+							<h4 class="specification sub-title">Floor Unit</h4>
+							<h5>Master Bedroom : Marble</h5>
+							<h5>Bedroom : Marble</h5>
+							<h5>Living Room : Marble</h5>
+							<h5>Dining Room : Marble</h5>
+							<h5>Bathroom : Homogeneous Tile</h5>
+							<h5>Balcony : Ceramic</h5>
+							<h4 class="specification sub-title">Kitchen</h4>
+							<h5>Kitchen Table with Single Bowl</h5>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-6 dualcolumn-container">
-					<div class="dualcolumn-content">
-						<h4 class="specification sub-title">Bathroom</h4>
-						<h5>Water Heater : 1 Outlet Installation</h5>
-						<h4 class="specification sub-title">Phone</h4>
-						<h5>1 Outlet Installation</h5>
-						<h4 class="specification sub-title">TV</h4>
-						<h5>1 Outlet Installation</h5>
-						<h4 class="specification sub-title">Air Conditioner</h4>
-						<h5>1BR = 2 Units</h5>
-						<h5>2BR = 3 Units</h5>
-						<h5>3BR = 4 Units</h5>
-						<h4 class="specification sub-title">Electricity</h4>
-						<h5>1BR = 3.500 VA</h5>
-						<h5>2BR = 4.400 VA</h5>
-						<h5>3BR = 6.600 VA</h5>
+					<div class="col-md-6 dualcolumn-container">
+						<div class="dualcolumn-content">
+							<h4 class="specification sub-title">Bathroom</h4>
+							<h5>Water Heater : 1 Outlet Installation</h5>
+							<h4 class="specification sub-title">Phone</h4>
+							<h5>1 Outlet Installation</h5>
+							<h4 class="specification sub-title">TV</h4>
+							<h5>1 Outlet Installation</h5>
+							<h4 class="specification sub-title">Air Conditioner</h4>
+							<h5>1BR = 2 Units</h5>
+							<h5>2BR = 3 Units</h5>
+							<h5>3BR = 4 Units</h5>
+							<h4 class="specification sub-title">Electricity</h4>
+							<h5>1BR = 3.500 VA</h5>
+							<h5>2BR = 4.400 VA</h5>
+							<h5>3BR = 6.600 VA</h5>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-9 specification-row">
-						<a href="assets/img/layout/layout1.jpg" data-toggle="lightbox" data-gallery="layouts-gallery" class="specification-gallery-image-a">
-							<img src="assets/img/layout/layout1.jpg" class="specification-gallery-image">
-						</a>
+					<div class="row">
+						<div class="col-md-9 specification-row">
+							<a href="assets/img/layout/layout1.jpg" data-toggle="lightbox" data-gallery="layouts-gallery" class="specification-gallery-image-a">
+								<img src="assets/img/layout/layout1.jpg" class="specification-gallery-image">
+							</a>
+						</div>
+						<div class="col-md-3 specification-row specification-description">
+							<table class="tables">
+								<tr>
+									<td>1BR-A:</td>
+									<td>Nett Area:</td>
+									<td>35.01 m2</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Semi Gross: </td>
+									<td> 40.86 m2</td>
+								</tr>
+								<tr>
+									<td>1BR-B: </td>
+									<td>Nett Area:</td>
+									<td> 35.01 m2</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Semi Gross:</td>
+									<td> 40.86 m2</td>
+								</tr>
+							</table>
+						</div>
 					</div>
-					<div class="col-md-3 specification-row specification-description">
-						<table class="tables">
-							<tr>
-								<td>1BR-A:</td>
-								<td>Nett Area:</td>
-								<td>35.01 m2</td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>Semi Gross: </td>
-								<td> 40.86 m2</td>
-							</tr>
-							<tr>
-								<td>1BR-B: </td>
-								<td>Nett Area:</td>
-								<td> 35.01 m2</td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>Semi Gross:</td>
-								<td> 40.86 m2</td>
-							</tr>
-						</table>
+					<div class="row">
+						<div class="col-md-9 specification-row">
+							<a href="assets/img/layout/layout2.jpg" data-toggle="lightbox" data-gallery="layouts-gallery" class="specification-gallery-image-a">
+								<img src="assets/img/layout/layout2.jpg" class="specification-gallery-image">
+							</a>
+						</div>
+						<div class="col-md-3 specification-row specification-description">
+							<table class="tables">
+								<tr>
+									<td>2BR-A: </td>
+									<td>Nett Area:</td>
+									<td>51.66 m2</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Semi Gross: </td>
+									<td> 60.29 m2</td>
+								</tr>
+								<tr>
+									<td>2BR-B: </td>
+									<td>Nett Area:</td>
+									<td> 51.66 m2</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Semi Gross:</td>
+									<td> 59.46 m2</td>
+								</tr>
+								<tr>
+									<td>2BR-C: </td>
+									<td>Nett Area:</td>
+									<td> 59.46 m2</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Semi Gross:</td>
+									<td> 69.39 m2</td>
+								</tr>
+							</table>
+							<a href="https://goo.gl/T1Mrz3" target="_blank" class="virtualtour">2BR VIRTUAL TOUR</a>	
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-9 specification-row">
-						<a href="assets/img/layout/layout2.jpg" data-toggle="lightbox" data-gallery="layouts-gallery" class="specification-gallery-image-a">
-							<img src="assets/img/layout/layout2.jpg" class="specification-gallery-image">
-						</a>
-					</div>
-					<div class="col-md-3 specification-row specification-description">
-						<table class="tables">
-							<tr>
-								<td>2BR-A: </td>
-								<td>Nett Area:</td>
-								<td>51.66 m2</td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>Semi Gross: </td>
-								<td> 60.29 m2</td>
-							</tr>
-							<tr>
-								<td>2BR-B: </td>
-								<td>Nett Area:</td>
-								<td> 51.66 m2</td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>Semi Gross:</td>
-								<td> 59.46 m2</td>
-							</tr>
-							<tr>
-								<td>2BR-C: </td>
-								<td>Nett Area:</td>
-								<td> 59.46 m2</td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>Semi Gross:</td>
-								<td> 69.39 m2</td>
-							</tr>
-						</table>
-						<a href="https://goo.gl/T1Mrz3" target="_blank" class="virtualtour">2BR VIRTUAL TOUR</a>	
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-9 specification-row">
-						<a href="assets/img/layout/layout3.jpg" data-toggle="lightbox" data-gallery="layouts-gallery" class="specification-gallery-image-a">
-							<img src="assets/img/layout/layout3.jpg" class="specification-gallery-image">
-						</a>
-					</div>
-					<div class="col-md-3 specification-row specification-description">
-						<table class="tables">
-							<tr>
-								<td>3BR-A: </td>
-								<td>Nett Area:</td>
-								<td>78.56 m2</td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>Semi Gross: </td>
-								<td> 91.69 m2</td>
-							</tr>
-							<tr>
-								<td>3BR-B: </td>
-								<td>Nett Area:</td>
-								<td> 78.32 m2</td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>Semi Gross:</td>
-								<td> 91.40 m2</td>
-							</tr>
-							<tr>
-								<td>3BR-C: </td>
-								<td>Nett Area:</td>
-								<td> 78.32 m2</td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>Semi Gross:</td>
-								<td> 91.40 m2</td>
-							</tr>
-						</table>
-						<a href="https://goo.gl/6D6zWy" target="_blank" class="virtualtour">3BR VIRTUAL TOUR</a>
+					<div class="row">
+						<div class="col-md-9 specification-row">
+							<a href="assets/img/layout/layout3.jpg" data-toggle="lightbox" data-gallery="layouts-gallery" class="specification-gallery-image-a">
+								<img src="assets/img/layout/layout3.jpg" class="specification-gallery-image">
+							</a>
+						</div>
+						<div class="col-md-3 specification-row specification-description">
+							<table class="tables">
+								<tr>
+									<td>3BR-A: </td>
+									<td>Nett Area:</td>
+									<td>78.56 m2</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Semi Gross: </td>
+									<td> 91.69 m2</td>
+								</tr>
+								<tr>
+									<td>3BR-B: </td>
+									<td>Nett Area:</td>
+									<td> 78.32 m2</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Semi Gross:</td>
+									<td> 91.40 m2</td>
+								</tr>
+								<tr>
+									<td>3BR-C: </td>
+									<td>Nett Area:</td>
+									<td> 78.32 m2</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>Semi Gross:</td>
+									<td> 91.40 m2</td>
+								</tr>
+							</table>
+							<a href="https://goo.gl/6D6zWy" target="_blank" class="virtualtour">3BR VIRTUAL TOUR</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -435,7 +440,7 @@
 				</div>
 			</div>
 		<script>			
-			$('#navbars').scrollspy({offset:-55,animate: true,duration: 750})
+			$('#navbars').scrollspy({offset:"-50",animate: true,duration: 750})
 			$(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();
