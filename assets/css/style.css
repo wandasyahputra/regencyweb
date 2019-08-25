@@ -228,14 +228,23 @@ body {
     background-color: white !important;
 }
 li.on-mobile {
-    padding: 5px 12px;
+    flex: 1;
+    list-style-type: none;
+}
+#mobile-footer {
     display: none;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
 }
 li.on-mobile > a {
-    text-align: center;
+    padding: 15px 0px;
+    align-items: center;
     color: white !important;
     background-color: #74a7c5 !important;
-    border-radius: 10px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
 }
 .modal-body {
     padding: 0px;
@@ -254,7 +263,7 @@ li.on-mobile > a {
     .home-title {
         margin-top: 18vh;
     }
-    li.on-mobile {
-        display: block;
+    #mobile-footer {
+        display: flex;
     }
 }
